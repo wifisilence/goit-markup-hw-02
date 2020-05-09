@@ -149,3 +149,6 @@ footer {
 .example .sub-title {
   color: var(--secondary-text-color);
 }
+.example {
+  list-style: none;
+}
