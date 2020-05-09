@@ -1,63 +1,60 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body class="page">
+    <!--Шапка сайта-->
     <header>
-      <nav>
-        <a href="#"
-          ><img src="./images/WebStudio.svg" alt="лого" height="31" width="153"
-        /></a>
-        <ul>
-          <li><a href="#">Студия</a></li>
-          <li><a href="#">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+        <nav>
+            <a href="#"><img src="./images/WebStudio.svg" alt="лого" height="31" width="153" /></a>
+    <!--навигация по сайту-->
+            <ul class="site-nav list">
+                <li><a href="index.html" class="link">Студия</a></li>
+                <li><a href="portfolio.html" class="link">Портфолио</a></li>
+                <li><a href="#" class="link">Контакты</a></li>
+            </ul>
+        </nav>
+    <!--контакты в шапке-->
+        <ul class="site-contact list">
+            <li>
+                <img src="./images/envelope(hover).svg" alt="отправить електронное
+          письмо" height: 10.85px; width: 16px; />
+                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+            </li>
+            <li>
+                <img src="./images/Vector.svg" alt="позвонить по номеру" width: 10px; height: 14.47px; />
+                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <img
-            src="./images/envelope(hover).svg"
-            alt="отправить електронное письмо"
-            height="10.85"
-            width="16"
-          />
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <img
-            src="./images/Vector.svg"
-            alt="позвонить по номеру"
-            height="10"
-            width="14.47"
-          />
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
     </header>
     <main>
       <h1>Наши работы</h1>
       <section>
+          <!--Фильтры-->
         <h2>Фильтры</h2>
-        <ul>
-          <li><a href="#">Все</a></li>
-          <li><a href="#">Веб-сайты</a></li>
-          <li><a href="#">Приложения</a></li>
-          <li><a href="#">Дизайн</a></li>
-          <li><a href="#">Маркетинг</a></li>
+        <ul class="filter">
+          <li><a href="#" class="link">Все</a></li>
+          <li><a href="#" class="link">Веб-сайты</a></li>
+          <li><a href="#" class="link">Приложения</a></li>
+          <li><a href="#" class="link">Дизайн</a></li>
+          <li><a href="#" class="link">Маркетинг</a></li>
         </ul>
       </section>
       <section>
-        <h2>примеры выполненных работ</h2>
-        <ul>
+          <!--Примеры -->
+       <h2>примеры выполненных работ</h2>
+        <ul class="example">
           <li>
             <img src="./images/img (6).jpg" alt="визуализация Веб-сайта
             Технокряк" width: 380px; height: 294px; />
-            <h3>Технокряк</h3>
-            <p>Веб-сайт</p>
+            <h3 class="sub-title">Технокряк</h3>
+            <p >Веб-сайт</p>
             <p>
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
@@ -67,94 +64,86 @@
           <li>
             <img src="./images/img (7).jpg" alt="постер созданный для
             спортивного мероприятия" width: 380px; height: 294px; />
-            <h3>Постер New Orlean vs Golden Stars</h3>
+            <h3 class="sub-title">Постер New Orlean vs Golden Stars</h3>
             <p>Дизайн</p>
           </li>
           <li>
             <img src="./images/img (8).jpg" alt="визуализация приложения для
             ресторана" width: 380px; height: 294px; />
-            <h3>Ресторан Seafood</h3>
+            <h3 class="sub-title">Ресторан Seafood</h3>
             <p>Приложение</p>
           </li>
           <li>
             <img src="./images/img (9).jpg" alt="пример промо для проэкта"
             width: 380px; height: 294px;/>
-            <h3>Проект Prime</h3>
+            <h3 class="sub-title" >Проект Prime</h3>
             <p>Маркетинг</p>
           </li>
           <li>
             <img src="./images/img (10).jpg" alt="визуализация приложения для
             доставки" width: 380px; height: 294px; />
-            <h3>Проект Boxes</h3>
+            <h3 class="sub-title" >Проект Boxes</h3>
             <p>Приложение</p>
           </li>
           <li>
             <img src="./images/img (11).jpg" alt="визуализация Веб-сайта
             Inspiration has no Borders" width: 380px; height: 294px; />
-            <h3>Inspiration has no Borders</h3>
+            <h3 class="sub-title" >Inspiration has no Borders</h3>
             <p>Веб-сайт</p>
           </li>
           <li>
             <img src="./images/img (12).jpg" alt="пример дизайна для журнала"
             width: 380px; height: 294px;/>
-            <h3>Издание Limited Edition</h3>
+            <h3 class="sub-title" >Издание Limited Edition</h3>
             <p>Дизайн</p>
           </li>
           <li>
             <img src="./images/img (13).jpg" alt="визуализация Веб-сайта
             Технокряк" width: 380px; height: 294px; />
-            <h3>Проект LAB</h3>
+            <h3 class="sub-title" >Проект LAB</h3>
             <p>Маркетинг</p>
           </li>
           <li>
             <img src="./images/img (14).jpg" alt="визуализация приложения для
             ПК" width: 380px; height: 294px; />
-            <h3>Growing Business</h3>
+            <h3 class="sub-title" >Growing Business</h3>
             <p>Приложение</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <section>
-        <a href="#"><img src="./images/WebStudio.svg" alt="logo" /></a>
-        <address>
-          <p>г. Киев, пр-т Леси Украинки, 26</p>
-        </address>
-        <a href="mailto:info@example.com">info@example.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
-      </section>
-      <section>
-        <h2>присоединяйтесь</h2>
-        <ul>
-          <li>
-            <a href="#"
-              ><img src="./images/Ellipseinstfoot.svg" alt="insta"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./images/Ellipsetwitterfoot.svg" alt="twitter"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./images/Ellipsefacebookfoot.svg" alt="facebook"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./images/Ellipselinkedfoot.svg" alt="link"
-            /></a>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Подпишитесь на рассылку</h2>
-      </section>
-      <section>
-        <p>2020 | Developed by GoIT Students</p>
-      </section>
+        <section class="adress">
+            <a href="#"><img src="./images/WebStudio.svg" alt="logo" /></a>
+            <address>
+                <p class="street">г. Киев, пр-т Леси Украинки, 26</p>
+            </address>
+            <a href="mailto:info@example.com" class="contact">info@example.com</a>
+            <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a>
+        </section>
+        <section class="doit">
+            <h2 class="sub-title">присоединяйтесь</h2>
+            <ul>
+                <li>
+                    <a href="#" class="pict"><img src="./images/Ellipseinstfoot.svg" alt="insta" /></a>
+                </li>
+                <li>
+                    <a href="#" class="pict"><img src="./images/Ellipsetwitterfoot.svg" alt="twitter" /></a>
+                </li>
+                <li>
+                    <a href="#" class="pict"><img src="./images/Ellipsefacebookfoot.svg" alt="facebook" /></a>
+                </li>
+                <li>
+                    <a href="#" class="pict"><img src="./images/Ellipselinkedfoot.svg" alt="link" /></a>
+                </li>
+            </ul>
+        </section>
+        <section class="subscribe">
+            <h2 class="sub-title">Подпишитесь на рассылку</h2>
+        </section>
+        <section>
+            <p class="create">2020 | Developed by GoIT Students</p>
+        </section>
     </footer>
   </body>
 </html>

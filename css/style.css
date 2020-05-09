@@ -1,0 +1,151 @@
+/*палитра цветов*/
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --white-color: #ffffff;
+  --adress-text-color: rgba(255, 255, 255, 0.6);
+  --primary-bcg-color: #ffffff;
+  --secondary-bcg-color: #f5f4fa;
+  --footer-bcg-color: #2f303a;
+  --accent-color: #2196f3;
+  --hero-bcg-color: rgba(47, 48, 58, 0.8);
+}
+
+/*общий для боди*/
+.page {
+  background-color: var(--primary-bcg-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+
+/*общий для секций*/
+.section-title {
+  color: #212121;
+}
+
+/*навигация по сайту*/
+.site-nav .link {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*контакты в шапке*/
+.site-contact .link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.site-contact .link:hover,
+.site-contact .link:focus {
+  color: var(--accent-color);
+}
+
+/*Герой*/
+.hero {
+  background-color: var(--hero-bcg-color);
+}
+.hero-title {
+  color: var(--white-color);
+}
+.hero .link {
+  text-decoration: none;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.hero .link:hover,
+.hero .link:focus {
+  background-color: var(--accent-color);
+}
+
+/*преимущества*/
+.advantages {
+  list-style: none;
+}
+.advantages .sub-title {
+  color: var(--secondary-text-color);
+}
+
+/*Наши работы*/
+.works {
+  list-style: none;
+}
+.works .sub-title {
+  color: var(--white-color);
+}
+.works .sub-title:hover,
+.works .sub-title:focus {
+  color: var(--accent-color);
+}
+
+/*Наша команда*/
+.personal {
+  background-color: var(--secondary-bcg-color);
+}
+.comand {
+  list-style: none;
+}
+.comand .sub-title {
+  color: var(--secondary-text-color);
+}
+.comand .pict {
+  background-color: var(--primary-bcg-color);
+}
+.comand .pict:hover,
+.comand .pict:focus {
+  background-color: var(--accent-color);
+}
+
+/*Клиены*/
+.clients {
+  list-style: none;
+}
+
+/*Адресс фут*/
+footer {
+  background: var(--footer-bcg-color);
+}
+.adress .street {
+  color: var(--white-color);
+}
+.adress .contact {
+  color: var(--adress-text-color);
+}
+/*Соц сети*/
+.doit .sub-title {
+  color: var(--white-color);
+}
+.doit .pict {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.doit .pict:hover,
+.doit .pict:focus {
+  background-color: var(--accent-color);
+}
+
+/*Форма Подписки*/
+.subscribe .sub-title {
+  color: var(--white-color);
+}
+/*Создано*/
+.create {
+  color: rgba(255, 255, 255, 0.4);
+}
+/*Фильтры*/
+.filter .link {
+  color: var(--secondary-text-color);
+  background: var(--secondary-bcg-colora);
+}
+.filter .link:hover,
+.filter .link:focus {
+  color: var(--white-color);
+  background: var(--accent-color);
+}
+/*Примеры*/
+.example .sub-title {
+  color: var(--secondary-text-color);
+}
