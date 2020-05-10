@@ -55,14 +55,14 @@
 .hero-title {
   color: var(--white-color);
 }
-.hero .link {
-  text-decoration: none;
-  color: var(--white-color);
-  background-color: var(--accent-color);
+.hero .btn {
+  color: var(--secondary-text-color);
+  background: var(--white-color);
 }
-.hero .link:hover,
-.hero .link:focus {
-  background-color: var(--accent-color);
+.hero .btn:hover,
+.hero .btn:focus {
+  color: var(--white-color);
+  background: var(--accent-color);
 }
 
 /*преимущества*/
@@ -139,12 +139,15 @@ footer {
   color: rgba(255, 255, 255, 0.4);
 }
 /*Фильтры*/
-.filter .link {
+.filter {
+  list-style: none;
+}
+.filter .btn {
   color: var(--secondary-text-color);
   background: var(--secondary-bcg-colora);
 }
-.filter .link:hover,
-.filter .link:focus {
+.filter .btn:hover,
+.filter .btn:focus {
   color: var(--white-color);
   background: var(--accent-color);
 }
@@ -154,4 +157,10 @@ footer {
 }
 .example {
   list-style: none;
+}
+.example-link {
+  text-decoration: none;
+}
+.example p {
+  color: var(--primary-text-color);
 }
